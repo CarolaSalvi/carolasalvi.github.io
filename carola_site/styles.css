@@ -1,0 +1,218 @@
+:root{--ink:#111;--paper:#f4f1e9;--white:#fff;--red:#e8451d;--blue:#b9d4d5;--green:#123f37;--yellow:#f0d13d;--line:#bbb7ad;--serif:'Libre Caslon Text',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.5}.site-header{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 4vw;border-bottom:1px solid var(--ink);position:sticky;top:0;background:rgba(244,241,233,.94);backdrop-filter:blur(12px);z-index:50}.brand{font-weight:700;letter-spacing:.16em;text-decoration:none;color:var(--ink);font-size:13px}.brand i{color:var(--red);font-style:normal;margin-left:8px}nav{display:flex;gap:25px}nav a{color:var(--ink);text-decoration:none;font-size:12px;letter-spacing:.06em}nav a:hover{color:var(--red)}.hero{min-height:calc(100vh - 76px);display:grid;grid-template-columns:1.05fr .95fr;padding:6vw 6vw 5vw;gap:5vw;overflow:hidden}.kicker,.section-label{font-size:11px;font-weight:700;letter-spacing:.2em}.hero h1{font-size:clamp(68px,9vw,148px);line-height:.75;letter-spacing:-.075em;margin:4vw 0 2.5vw;font-weight:700}.hero h1 span{color:var(--red);margin-left:7vw}.hero-deck{font-family:var(--serif);font-size:clamp(24px,2.4vw,40px);max-width:700px;margin:0 0 22px}.hero-deck em{color:var(--red)}.lede{max-width:650px;font-size:16px}.arrow-link{display:inline-block;margin-top:35px;color:var(--ink);font-size:11px;letter-spacing:.16em;font-weight:700}.hero-bauhaus{position:relative;min-height:620px}.hero-bauhaus .box{position:absolute;width:66%;height:62%;right:8%;top:10%;border:2px solid var(--ink)}.sun{position:absolute;width:210px;height:210px;border-radius:50%;background:var(--yellow);right:-3%;top:-2%}.stem{position:absolute;width:2px;height:65%;background:var(--ink);left:43%;top:21%}.bulb{position:absolute;width:240px;height:240px;border-radius:50%;background:var(--blue);left:17%;top:24%;border:2px solid var(--ink)}.bulb:after{content:"";position:absolute;width:84px;height:70px;background:var(--red);left:76px;bottom:-54px;border:2px solid var(--ink)}.bulb span{position:absolute;width:110px;height:110px;border:2px solid var(--ink);border-radius:50%;left:63px;top:55px}.bulb b{position:absolute;width:2px;height:135px;background:var(--ink);left:117px;top:51px;transform:rotate(34deg)}.slash{position:absolute;width:3px;height:58%;background:var(--red);left:48%;top:13%;transform:rotate(46deg);transform-origin:center}.micro{position:absolute;right:3%;bottom:14%;font-size:12px;font-weight:700;letter-spacing:.3em;writing-mode:vertical-rl}.hero-bauhaus img{position:absolute;width:155px;bottom:-4%;left:4%;mix-blend-mode:multiply;transform:rotate(-7deg)}.manifesto{background:var(--ink);color:#fff;padding:7vw 9vw;position:relative}.manifesto-index{position:absolute;right:5vw;top:4vw;color:var(--red);font-size:11px;letter-spacing:.2em}.manifesto>p{font-size:11px;letter-spacing:.22em}.manifesto h2{font-family:var(--serif);font-weight:400;font-size:clamp(38px,5vw,76px);line-height:1.08;max-width:1250px;margin:28px 0 0}.section{padding:8vw 7vw;border-bottom:1px solid var(--ink)}.research-intro{display:grid;grid-template-columns:1fr 1fr;gap:8vw;margin-top:28px}.section h2{font-size:clamp(52px,7vw,102px);line-height:.92;letter-spacing:-.055em;margin:20px 0 35px}.research-intro p,.art-title>p{font-family:var(--serif);font-size:20px;line-height:1.65;align-self:end}.research-visual{display:grid;grid-template-columns:1.2fr .8fr;margin:7vw -7vw 0}.brain-frame{background:#050505;position:relative;min-height:520px;overflow:hidden}.brain-frame img{width:100%;height:100%;object-fit:cover}.brain-frame span,.brain-white span{position:absolute;bottom:20px;left:25px;font-size:10px;letter-spacing:.18em;color:#fff}.brain-white{position:relative;background:#fff;min-height:520px}.brain-white .geometry i{position:absolute;width:230px;height:230px;border-radius:50%;background:var(--red);left:20%;top:22%}.brain-white .geometry b{position:absolute;width:250px;height:250px;border:2px solid var(--ink);left:38%;top:38%;transform:rotate(45deg)}.brain-white span{color:var(--ink)}.research-grid{display:grid;grid-template-columns:repeat(2,1fr);border-left:1px solid var(--ink);border-top:1px solid var(--ink);margin-top:6vw}.research-grid article{padding:38px;min-height:290px;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink)}.research-grid article>b{color:var(--red);font-size:11px}.research-grid h3{font-family:var(--serif);font-size:28px;font-weight:400;line-height:1.15}.methods{display:flex;flex-wrap:wrap;gap:0;margin-top:38px}.methods>*{padding:9px 13px;border:1px solid var(--ink);margin:-1px 0 0 -1px;font-size:10px;letter-spacing:.08em}.methods strong{background:var(--red);color:#fff}.book{display:grid;grid-template-columns:.8fr 1.2fr;gap:9vw;background:var(--green);color:#fff;align-items:center;overflow:hidden}.book-image{position:relative}.book-image:before{content:"";position:absolute;width:110%;height:3px;background:var(--red);top:42%;left:-35%;transform:rotate(-20deg)}.book-image img{width:min(100%,480px);display:block;position:relative;box-shadow:20px 25px 0 rgba(0,0,0,.25)}.book-copy{position:relative}.book-copy h2{color:#fff}.book-copy p{max-width:660px}.serif{font-family:var(--serif);font-size:22px}.orbit{width:270px;height:270px;border:2px solid #d7b99d;border-radius:50%;position:absolute;right:-8vw;bottom:-11vw}.orbit i{position:absolute;width:28px;height:28px;background:#d7b99d;border-radius:50%;left:120px;top:120px}.orbit span{position:absolute;top:122px;left:-38px;font-size:10px;letter-spacing:.2em}.publications{background:#fff}.pub-head{display:grid;grid-template-columns:.6fr 1.4fr;column-gap:8vw;align-items:end;margin-bottom:5vw}.pub-head .section-label{grid-column:1}.pub-head h2{grid-column:1/3}.pub-head p{grid-column:2;font-family:var(--serif);font-size:18px}.pub-head a{color:var(--red)}details{border-top:1px solid var(--ink)}details:last-child{border-bottom:1px solid var(--ink)}summary{list-style:none;cursor:pointer;padding:22px 0;font-weight:700;letter-spacing:.12em;font-size:12px;display:flex;justify-content:space-between}summary::-webkit-details-marker{display:none}summary span{color:var(--red)}.pubs{margin:0 0 45px;padding:0;list-style:none;counter-reset:pub}.pubs li{counter-increment:pub;display:grid;grid-template-columns:55px 1fr;gap:15px;border-top:1px solid #ddd;padding:14px 0;font-size:13px}.pubs li:before{content:counter(pub,decimal-leading-zero);color:#888;font-size:10px;padding-top:3px}.pubs strong{font-weight:700}.media{background:var(--blue)}.media-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:7vw;margin-top:5vw}.media-object{position:relative;background:#fff;padding:4vw}.media-object img{width:100%;display:block;filter:grayscale(1)}.media-object span{position:absolute;left:-18px;bottom:12%;writing-mode:vertical-rl;font-size:10px;letter-spacing:.2em}.media-list{border-top:2px solid var(--ink)}.media-list h3{font-size:11px;letter-spacing:.2em}.media-list p{font-family:var(--serif);font-size:23px;border-bottom:1px solid rgba(0,0,0,.35);padding:10px 0;margin:0}.media-list small{display:block;margin-top:24px}.art{background:var(--paper)}.art-title{display:grid;grid-template-columns:.8fr 1.2fr;gap:5vw}.art-title .section-label{grid-column:1/3}.art-title h2{grid-column:1/3}.art-title>p{grid-column:2}.art-gallery{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:6vw -2vw}.art-gallery figure{margin:0;overflow:hidden;background:#111}.art-gallery figure:nth-child(2){transform:translateY(70px)}.art-gallery img{width:100%;height:680px;object-fit:cover;display:block}.exhibitions{margin-top:10vw;max-width:1050px;margin-left:auto}.exhibitions h3{font-size:11px;letter-spacing:.2em;border-bottom:2px solid var(--ink);padding-bottom:12px}.exhibitions>div{display:grid;grid-template-columns:120px 1fr;border-bottom:1px solid var(--ink);padding:18px 0}.exhibitions b{color:var(--red);font-size:13px}.exhibitions p{margin:0}.exhibitions span{font-size:12px;color:#555}.photography-hold{min-height:380px;background:#fff;position:relative}.photography-hold:after{content:"";position:absolute;width:150px;height:150px;border-radius:50%;background:var(--yellow);right:10vw;top:8vw}.photography-hold p{max-width:520px}.contact{display:grid;grid-template-columns:.7fr 1.3fr;background:var(--red);color:#fff;align-items:center}.contact-phone img{width:70%;max-width:430px;mix-blend-mode:multiply}.contact a{color:#fff;font-size:18px}footer{display:flex;justify-content:space-between;padding:25px 4vw;font-size:10px;letter-spacing:.12em;background:var(--ink);color:#fff}@media(max-width:900px){nav{display:none}.hero,.research-intro,.book,.media-grid,.art-title,.contact,.pub-head{grid-template-columns:1fr}.hero{padding:70px 7vw}.hero-bauhaus{min-height:500px}.hero h1 span{margin-left:0}.research-visual{grid-template-columns:1fr;margin-left:-7vw;margin-right:-7vw}.research-grid{grid-template-columns:1fr}.pub-head h2,.pub-head p,.art-title .section-label,.art-title h2,.art-title>p{grid-column:1}.art-gallery{grid-template-columns:1fr;margin:50px 0}.art-gallery figure:nth-child(2){transform:none}.art-gallery img{height:auto}.section{padding:80px 7vw}.contact-phone img{width:55%}.orbit{display:none}.exhibitions>div{grid-template-columns:70px 1fr}footer{gap:20px;flex-wrap:wrap}}
+/* v3: more conceptual / editorial Bauhaus */
+.about{background:var(--yellow);position:relative;overflow:hidden}.about:after{content:"";position:absolute;width:38vw;height:38vw;border:2px solid var(--ink);border-radius:50%;left:-19vw;bottom:-22vw}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:9vw;margin-top:2vw}.about h2{max-width:760px}.about .dark{color:var(--ink);max-width:650px}.scholar-link{display:inline-block;margin-top:28px;color:var(--ink);font-weight:700;letter-spacing:.16em;font-size:11px}.credentials{border-top:2px solid var(--ink)}.credentials h3{font-size:11px;letter-spacing:.2em;margin:32px 0 10px}.credentials>div{display:grid;grid-template-columns:88px 1fr;border-top:1px solid rgba(0,0,0,.45);padding:12px 0}.credentials b{font-size:11px}.credentials p{margin:0;font-size:13px}.media-list a{display:grid;grid-template-columns:120px 1fr auto;gap:15px;align-items:center;border-bottom:1px solid rgba(0,0,0,.35);padding:17px 0;color:var(--ink);text-decoration:none}.media-list a:hover{background:rgba(255,255,255,.3)}.media-list a b,.media-list a i{font-size:10px;letter-spacing:.12em;font-style:normal}.media-list a em{font-family:var(--serif);font-size:18px;font-style:normal}.press-mentions{padding:24px 0;display:grid;grid-template-columns:120px 1fr;gap:15px;font-size:11px;letter-spacing:.08em}.media-object.rai{padding:0;background:#111;align-self:start}.media-object.rai img{filter:none;aspect-ratio:16/9;object-fit:cover}.crop-strip{grid-template-columns:repeat(5,1fr);gap:3px;margin:6vw -7vw 3vw;height:560px}.crop-strip figure,.crop-strip figure:nth-child(2){transform:none;height:100%}.crop-strip img{height:100%;object-fit:cover;object-position:50% 36%;transition:transform .5s ease}.crop-strip figure:nth-child(2) img{object-position:50% 24%}.crop-strip figure:nth-child(3) img{object-position:50% 32%}.crop-strip figure:nth-child(4) img{object-position:48% 27%}.crop-strip figure:nth-child(5) img{object-position:55% 30%}.crop-strip figure:hover img{transform:scale(1.035)}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr}.crop-strip{height:390px;grid-template-columns:repeat(5,45vw);overflow:hidden;margin-left:-7vw;margin-right:-7vw}.media-list a{grid-template-columns:90px 1fr}.media-list a i{display:none}.press-mentions{grid-template-columns:90px 1fr}}
+
+/* v4 hero — Baldwin/Swiss circle system */
+.hero.hero-circles{min-height:calc(100vh - 76px);grid-template-columns:.88fr 1.12fr;padding:6vw 5vw 4vw;gap:4vw;align-items:center;background:var(--paper)}
+.hero-circles .hero-copy{align-self:center;max-width:690px}
+.hero-circles .kicker{font-weight:500;letter-spacing:.25em;margin:0 0 3.5vw}
+.hero-circles h1{font-family:var(--sans);font-size:clamp(66px,7.7vw,126px);line-height:.82;letter-spacing:-.075em;margin:0 0 2.3vw;font-weight:700}
+.hero-circles .hero-dot{color:var(--red);margin-left:3px}
+.hero-circles .hero-deck{font-size:clamp(20px,1.8vw,30px);margin-bottom:18px}
+.hero-circles .lede{max-width:610px;font-size:15px;line-height:1.65}
+.hero-circles .arrow-link{margin-top:25px}
+.hero-topics{margin-top:4vw;padding-left:22px;border-left:1px solid var(--ink);display:flex;flex-direction:column;gap:3px;font-size:10px;letter-spacing:.18em}
+.hero-circle-system{--disc:clamp(150px,16vw,255px);position:relative;display:grid;grid-template-columns:repeat(2,var(--disc));grid-auto-rows:var(--disc);gap:0;justify-content:center;align-content:center;min-height:calc(var(--disc)*3);padding-bottom:1vw}
+.idea-circle,.brain-circle{width:var(--disc);height:var(--disc);border-radius:50%;overflow:hidden}
+.idea-circle{background:var(--red)}
+.brain-circle{background:#fff;display:flex;align-items:center;justify-content:center}
+.brain-circle img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;mix-blend-mode:multiply}
+.hero-micro{position:absolute;right:-1vw;bottom:2vw;font-size:10px;line-height:1.7;letter-spacing:.2em}
+@media(max-width:1050px){.hero.hero-circles{grid-template-columns:1fr 1fr}.hero-circle-system{--disc:clamp(125px,18vw,190px)}.hero-micro{display:none}}
+@media(max-width:760px){.hero.hero-circles{grid-template-columns:1fr;padding:60px 7vw 70px}.hero-circles h1{font-size:clamp(62px,18vw,98px)}.hero-circle-system{--disc:min(42vw,190px);margin-top:45px}.hero-topics{margin-top:45px}}
+/* v5 refinements */
+.hero.hero-circles{grid-template-columns:1fr 1fr}
+.hero-circles h1{font-size:clamp(52px,5.9vw,96px);line-height:.88;letter-spacing:-.06em}
+.hero-circles .hero-deck{font-weight:700;letter-spacing:.08em;font-size:clamp(18px,1.5vw,25px);margin-top:25px}
+.hero-circle-system{--disc:clamp(145px,15vw,235px);grid-template-columns:repeat(2,var(--disc));grid-template-rows:repeat(3,var(--disc));width:calc(var(--disc)*2);height:calc(var(--disc)*3);min-height:0;padding:0;justify-self:center}
+.aha-disc{display:flex;align-items:center;justify-content:center;position:relative}.aha-disc span{font-size:clamp(28px,3.5vw,60px);font-weight:700;letter-spacing:-.07em;color:var(--paper);transform:rotate(-10deg);mix-blend-mode:screen}
+.brain-circle img{object-fit:contain;transform:scale(.93);mix-blend-mode:multiply}
+.brain-frame img{object-position:center 48%;transform:scale(1.08)}
+.brain-white{overflow:hidden;background:var(--paper)}.brain-white:before{content:"";position:absolute;width:280px;height:280px;border:2px solid var(--ink);border-radius:50%;left:12%;top:14%}.brain-white:after{content:"";position:absolute;width:190px;height:190px;background:var(--red);right:5%;bottom:8%;border-radius:50%}.brain-white .geometry i{width:180px;height:180px;left:33%;top:28%;background:var(--yellow);z-index:2}.brain-white .geometry b{width:210px;height:210px;left:42%;top:35%;z-index:3}.brain-white span{z-index:5;font-weight:700;letter-spacing:.25em}
+.book-link{display:inline-block;margin-top:24px;color:#fff;border-bottom:1px solid #fff;padding-bottom:5px;font-size:10px;letter-spacing:.14em;font-weight:700}
+.publications details{margin:0}.publications summary{padding:13px 0}.pubs{margin:0 0 22px}.pubs li{grid-template-columns:35px 1fr;gap:8px;padding:6px 0;font-size:11px;line-height:1.38}.pubs li:before{font-size:8px}.pubs.articles{columns:1}.pubs a{color:inherit;text-decoration-thickness:1px;text-underline-offset:2px}
+.media-hero{position:relative;margin:4vw 0 5vw;max-width:1100px}.media-hero img{width:100%;display:block;aspect-ratio:16/7;object-fit:cover}.media-hero span{position:absolute;left:20px;bottom:18px;background:var(--paper);padding:8px 10px;font-size:9px;letter-spacing:.18em}.media-archive{display:grid;grid-template-columns:1fr 1fr;gap:6vw}.media-list,.press-all{border-top:2px solid var(--ink)}.press-all h3{font-size:11px;letter-spacing:.2em}.press-all ol{list-style:none;padding:0;margin:0}.press-all li{border-bottom:1px solid rgba(0,0,0,.3);padding:10px 0;font-family:var(--serif);font-size:15px;line-height:1.25}
+.crop-strip{height:310px}.crop-strip img{height:100%;object-fit:cover;transform:scale(1.18)}.crop-strip figure:hover img{transform:scale(1.23)}
+.contact-phone{height:390px;overflow:hidden;display:flex;align-items:center}.contact-phone img{width:92%;max-width:520px;transform:scale(1.15) translateX(-4%)}
+@media(max-width:900px){.media-archive{grid-template-columns:1fr}.media-hero img{aspect-ratio:16/9}.crop-strip{height:250px}.contact-phone{height:280px}}
+
+/* v6 requested refinements */
+.aha-disc span{display:none!important}
+.brain-circle img{transform:scale(.78);object-fit:contain}
+.brain-frame{background:var(--paper);display:flex;align-items:center;justify-content:center}
+.brain-frame img{width:88%;height:88%;object-fit:contain;object-position:center;transform:scale(.96)}
+.brain-frame span{background:var(--paper);color:var(--ink);padding:6px 8px;bottom:18px;left:20px;font-weight:700}
+.pub-section{border-top:1px solid var(--ink);padding:0 0 18px}.pub-section:last-child{border-bottom:1px solid var(--ink)}
+.pub-section h3{display:flex;justify-content:space-between;margin:0;padding:12px 0;font-size:11px;letter-spacing:.15em}.pub-section h3 span{color:var(--red)}
+.pubs li a{color:inherit;text-decoration:none}.pubs li a:hover{text-decoration:underline;text-underline-offset:3px}
+.press-all li a{color:inherit;text-decoration:none;display:block}.press-all li a:hover{text-decoration:underline;text-underline-offset:3px}
+/* portrait / vertical artwork crops */
+.crop-strip{height:auto;grid-template-columns:repeat(5,1fr);gap:10px;margin-left:0;margin-right:0}
+.crop-strip figure,.crop-strip figure:nth-child(2){height:560px;transform:none}
+.crop-strip img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.06)}
+.crop-strip figure:hover img{transform:scale(1.1)}
+/* restore original telephone treatment */
+.contact-phone{height:auto;overflow:visible;display:block}
+.contact-phone img{width:70%;max-width:430px;transform:none;mix-blend-mode:multiply}
+@media(max-width:900px){.crop-strip{grid-template-columns:repeat(2,1fr);height:auto}.crop-strip figure{height:440px}.contact-phone{height:auto}.contact-phone img{width:55%}}
+
+/* v7 — requested refinements, preserving v6 site */
+/* One bibliographic item per continuous row: wrapping only when the viewport physically requires it. */
+.publications .pubs{list-style:none;padding:0;margin:0 0 22px;counter-reset:pub}
+.publications .pubs li{counter-increment:pub;display:block;position:relative;padding:7px 0 7px 34px;border-bottom:1px solid rgba(0,0,0,.16);font-size:11px;line-height:1.35;white-space:nowrap;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin}
+.publications .pubs li:before{content:counter(pub,decimal-leading-zero);position:absolute;left:0;top:8px;font-family:var(--sans);font-size:8px;letter-spacing:.08em}
+.publications .pubs li a{display:inline;color:inherit}
+
+/* Brain scan: crop approximately 1 cm visually from each side without changing the original asset. */
+.brain-frame{overflow:hidden;position:relative}
+.brain-frame img{width:calc(100% + 10%);height:100%;max-width:none;object-fit:cover;object-position:center;transform:none;clip-path:inset(0 5% 0 5%)}
+
+/* Replace the previous geometry with the lamp/light visual language from the supplied reference. */
+.insight-lamp{position:relative;overflow:hidden;min-height:520px;background:var(--paper);display:flex;align-items:flex-start;justify-content:flex-end}
+.insight-lamp>img{position:relative;z-index:3;width:88%;height:62%;object-fit:cover;object-position:72% 15%;mix-blend-mode:multiply}
+.insight-lamp .light-cone{position:absolute;z-index:1;right:14%;top:28%;width:54%;height:62%;background:linear-gradient(155deg,rgba(240,209,61,.5),rgba(240,209,61,.08) 62%,transparent 63%);clip-path:polygon(35% 0,100% 0,72% 100%,0 100%)}
+.insight-lamp span{position:absolute;z-index:4;left:10%;bottom:10%;font-family:var(--sans);font-size:clamp(44px,7vw,108px);font-weight:700;letter-spacing:-.07em;color:var(--ink)}
+
+/* Ideas in Public: use the two supplied TEDx images. */
+.media-hero-pair{display:grid;grid-template-columns:1.05fr 1fr;gap:10px;max-width:none}
+.media-hero-pair img{width:100%;height:430px;aspect-ratio:auto;object-fit:cover}
+.media-hero-pair img:first-child{object-position:center 48%}
+.media-hero-pair img:nth-child(2){object-position:center}
+
+/* Project title + explicit subtitle. */
+.art-title .art-subtitle{font-family:var(--sans);font-size:clamp(20px,2vw,30px);font-weight:700;line-height:1.1;margin:14px 0 22px}
+
+/* User requested vertical cropping of the paintings: narrow portrait slices, partial works encouraged. */
+.crop-strip{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.crop-strip figure,.crop-strip figure:nth-child(2){height:620px;overflow:hidden}
+.crop-strip img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.28)}
+.crop-strip figure:nth-child(2) img{object-position:45% center}.crop-strip figure:nth-child(3) img{object-position:55% center}.crop-strip figure:nth-child(4) img{object-position:42% center}.crop-strip figure:nth-child(5) img{object-position:58% center}
+.crop-strip figure:hover img{transform:scale(1.32)}
+
+@media(max-width:900px){
+ .publications .pubs li{white-space:normal;overflow:visible}
+ .media-hero-pair{grid-template-columns:1fr}.media-hero-pair img{height:auto;aspect-ratio:16/9}
+ .insight-lamp{min-height:390px}.crop-strip figure{height:480px}
+}
+
+/* v8 — final refinement pass */
+/* Research brain: smaller, with an even crop on all four sides. */
+.brain-frame{padding:7%;background:var(--paper);overflow:hidden;box-sizing:border-box}
+.brain-frame img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:center;clip-path:inset(6% 6% 6% 6%);transform:scale(.88)}
+.brain-frame span{left:9%;bottom:8%;font-size:9px;letter-spacing:.18em}
+
+/* Simple Bauhaus geometry + bulb beside the scan. */
+.bauhaus-bulb{position:relative;min-height:520px;background:var(--paper);overflow:hidden}
+.bauhaus-bulb .shape-circle{position:absolute;width:44%;aspect-ratio:1;border-radius:50%;background:var(--red);right:9%;top:11%}
+.bauhaus-bulb .shape-square{position:absolute;width:35%;aspect-ratio:1;background:var(--yellow);left:12%;bottom:13%}
+.bauhaus-bulb .shape-line{position:absolute;width:2px;height:66%;background:var(--ink);left:50%;top:17%;transform:rotate(31deg);transform-origin:center}
+.bauhaus-bulb img{position:absolute;z-index:3;width:58%;height:72%;object-fit:contain;right:15%;bottom:4%;mix-blend-mode:multiply;filter:grayscale(1)}
+
+/* Ideas in Public: preserve the complete red TEDx artwork; match stage image to the same box. */
+.media-hero-pair{grid-template-columns:1fr 1fr;align-items:stretch;background:var(--paper)}
+.media-hero-pair img{width:100%;height:430px;aspect-ratio:auto;background:var(--paper)}
+.media-hero-pair img:nth-child(2){object-fit:contain;object-position:center}
+.media-hero-pair img:first-child{object-fit:cover;object-position:center 52%}
+
+/* Artwork: smaller horizontal/landscape crops, intentionally showing partial paintings. */
+.crop-strip{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:2vw}
+.crop-strip figure,.crop-strip figure:nth-child(2){height:245px;overflow:hidden}
+.crop-strip img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.12)}
+.crop-strip figure:hover img{transform:scale(1.16)}
+
+/* Contact: subtle crop from both horizontal sides. */
+.contact-phone{overflow:hidden}
+.contact-phone img{width:74%;max-width:450px;transform:scale(1.04);clip-path:inset(0 3% 0 3%);transform-origin:center}
+
+@media(max-width:900px){
+ .brain-frame{padding:5%}.bauhaus-bulb{min-height:380px}
+ .media-hero-pair{grid-template-columns:1fr}.media-hero-pair img{height:auto;aspect-ratio:16/9}.media-hero-pair img:nth-child(2){object-fit:contain}
+ .crop-strip{grid-template-columns:repeat(2,1fr)}.crop-strip figure,.crop-strip figure:nth-child(2){height:210px}
+}
+
+/* v9 — final requested refinements */
+/* Home brain: slightly larger than v8, while preserving the circle system. */
+.hero-circle-system .brain-circle img{transform:scale(.86);object-fit:contain}
+
+/* Publication profile links. */
+.pub-profile-links{display:flex;gap:22px;flex-wrap:wrap;margin-top:20px}
+.pub-profile-links a{color:var(--ink);font-size:10px;font-weight:700;letter-spacing:.14em;text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:4px}
+.pub-profile-links a:hover{color:var(--red);border-color:var(--red)}
+
+/* Ideas in Public: both supplied TEDx images use exactly the same landscape frame.
+   The red artwork fills its frame edge-to-edge; the stage photo is cropped to match it. */
+.media-hero-pair{grid-template-columns:1fr 1fr;gap:10px;align-items:start}
+.media-hero-pair img,.media-hero-pair img:first-child,.media-hero-pair img:nth-child(2){width:100%;height:auto;aspect-ratio:1095/496;object-fit:cover;background:transparent}
+.media-hero-pair img:first-child{object-position:center 58%}
+.media-hero-pair img:nth-child(2){object-position:center}
+
+/* Paintings: vertical slices again, but more compact than the earlier tall treatment. */
+.crop-strip{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-top:2vw}
+.crop-strip figure,.crop-strip figure:nth-child(2){height:420px;overflow:hidden}
+.crop-strip img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.18)}
+.crop-strip figure:hover img{transform:scale(1.22)}
+
+@media(max-width:900px){
+ .media-hero-pair{grid-template-columns:1fr}.media-hero-pair img,.media-hero-pair img:first-child,.media-hero-pair img:nth-child(2){aspect-ratio:1095/496;height:auto}
+ .crop-strip{grid-template-columns:repeat(2,1fr)}.crop-strip figure,.crop-strip figure:nth-child(2){height:360px}
+}
+
+/* v10 — requested refinement: half petrol-blue Bauhaus circle + supplied bulb */
+:root{--petrol:#155664}
+.bauhaus-bulb{position:relative;min-height:520px;background:var(--paper);overflow:hidden;isolation:isolate}
+.bauhaus-bulb .shape-circle{display:block;position:absolute;width:58%;aspect-ratio:1;border-radius:50%;background:var(--petrol);left:8%;top:17%;z-index:1}
+.bauhaus-bulb .shape-circle:after{content:"";position:absolute;inset:0 0 0 50%;background:var(--paper)}
+.bauhaus-bulb .shape-square{display:none}
+.bauhaus-bulb .shape-line{position:absolute;display:block;width:1px;height:68%;background:var(--ink);left:58%;top:12%;transform:none;z-index:4}
+.bauhaus-bulb img{position:absolute;z-index:3;width:43%;height:74%;object-fit:contain;left:49%;right:auto;bottom:6%;mix-blend-mode:multiply;filter:grayscale(1);background:transparent}
+/* paintings stay as narrow vertical slices, but the gallery is about 2 cm shorter */
+.crop-strip figure,.crop-strip figure:nth-child(2){height:344px;overflow:hidden}
+.crop-strip img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.34)}
+.crop-strip figure:hover img{transform:scale(1.38)}
+@media(max-width:900px){.bauhaus-bulb{min-height:360px}.crop-strip figure,.crop-strip figure:nth-child(2){height:300px}}
+
+/* v11 — exact refinement requested */
+/* Bauhaus mark: one circle split by a central line, petrol half + supplied bulb-image half. */
+.bauhaus-bulb{position:relative;min-height:520px;background:var(--paper);overflow:hidden;isolation:isolate}
+.bauhaus-bulb .shape-circle{display:block;position:absolute;width:62%;aspect-ratio:1;border-radius:50%;background:var(--petrol);left:18%;top:16%;overflow:hidden;z-index:1}
+.bauhaus-bulb .shape-circle:after{content:"";position:absolute;left:50%;top:0;width:50%;height:100%;background:var(--paper)}
+.bauhaus-bulb .shape-square{display:none}
+.bauhaus-bulb .shape-line{position:absolute;display:block;width:2px;height:72%;background:var(--ink);left:49%;top:10%;transform:none;z-index:5}
+.bauhaus-bulb img{content:url('assets/bulb-user-v11.png');position:absolute;z-index:3;width:31%;height:58%;object-fit:cover;object-position:50% 50%;left:49%;right:auto;top:18%;bottom:auto;mix-blend-mode:multiply;filter:grayscale(1);clip-path:inset(0 0 0 0);background:transparent}
+/* Restore the paintings' original vertical ratio/height; crop only from left and right. */
+.crop-strip figure,.crop-strip figure:nth-child(2){height:680px;overflow:hidden}
+.crop-strip img{width:100%;height:100%;object-fit:cover;object-position:center;transform:scaleX(1.14);transform-origin:center}
+.crop-strip figure:hover img{transform:scaleX(1.14)}
+@media(max-width:900px){.bauhaus-bulb{min-height:360px}.crop-strip figure,.crop-strip figure:nth-child(2){height:auto;aspect-ratio:2/3}.crop-strip img{transform:scaleX(1.14)}}
+
+/* v12 — corrected exactly to the requested split-circle composition */
+.bauhaus-bulb{position:relative;min-height:520px;background:var(--paper);overflow:hidden;display:flex;align-items:center;justify-content:center}
+.bauhaus-bulb .split-circle{position:relative;width:min(360px,72%);aspect-ratio:1;border-radius:50%;overflow:hidden}
+.bauhaus-bulb .split-green,.bauhaus-bulb .split-photo{position:absolute;top:0;width:50%;height:100%;overflow:hidden}
+.bauhaus-bulb .split-green{left:0;background:#155664}
+.bauhaus-bulb .split-photo{right:0;background:#d9d7d7}
+.bauhaus-bulb .split-photo img{position:absolute;width:200%;height:100%;max-width:none;left:-100%;top:0;object-fit:cover;object-position:center;mix-blend-mode:normal;filter:none}
+.bauhaus-bulb .split-line{position:absolute;z-index:4;left:calc(50% - 1px);top:0;width:2px;height:100%;background:var(--ink)}
+.bauhaus-bulb>.shape-circle,.bauhaus-bulb>.shape-square,.bauhaus-bulb>.shape-line,.bauhaus-bulb>img{display:none!important}
+
+/* Paintings: restore original 680px vertical proportion; reduce the gallery by 2cm on EACH side. */
+.art-gallery.crop-strip{margin-left:calc(-2vw + 2cm);margin-right:calc(-2vw + 2cm)}
+.crop-strip figure,.crop-strip figure:nth-child(2){height:680px;overflow:hidden}
+.crop-strip img{width:100%;height:100%;object-fit:cover;object-position:center;transform:none}
+.crop-strip figure:hover img{transform:none}
+@media(max-width:900px){
+ .bauhaus-bulb{min-height:360px}.bauhaus-bulb .split-circle{width:min(300px,78%)}
+ .art-gallery.crop-strip{margin-left:0;margin-right:0}
+ .crop-strip figure,.crop-strip figure:nth-child(2){height:auto;aspect-ratio:2/3}
+}
+
+/* v13 — selected Bauhaus Trial 3 for the research visual */
+.bauhaus-bulb .split-circle{overflow:visible;width:min(360px,72%);border-radius:0}
+.bauhaus-bulb .split-green{left:0;border-radius:180px 0 0 180px;background:#155664;overflow:hidden}
+.bauhaus-bulb .split-photo{right:0;border-radius:0 180px 180px 0;background:#d9d7d7;overflow:hidden}
+.bauhaus-bulb .split-photo img{width:200%;height:100%;max-width:none;left:-100%;top:0;object-fit:cover;object-position:center;mix-blend-mode:normal;filter:none}
+.bauhaus-bulb .split-line{left:calc(50% - 1px);top:-12%;height:124%;width:2px;background:var(--ink)}
+.bauhaus-bulb .split-circle:before{content:"";position:absolute;z-index:5;left:-15%;top:calc(50% - 1px);width:130%;height:2px;background:var(--ink)}
+.bauhaus-bulb .split-circle:after{content:"";position:absolute;z-index:6;right:-18%;top:calc(50% - 18px);width:36px;height:36px;border-radius:50%;background:var(--ink)}
+@media(max-width:900px){.bauhaus-bulb .split-circle:after{right:-14%;width:30px;height:30px;top:calc(50% - 15px)}}
