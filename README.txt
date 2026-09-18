@@ -1,7 +1,15 @@
-CAROLA SALVI WEBSITE — V2
-Open index.html in a browser.
-This is a working design prototype. Photography is intentionally left as a placeholder for the next pass.
-The full CV is included as Carola_Salvi_CV.pdf.
+CAROLA SALVI — OFFICIAL WEBSITE
 
-DOMAIN
-The site is configured with https://www.carolasalvi.org/ as its canonical URL. To make the domain serve this version, upload the contents of this folder to the hosting provider for carolasalvi.org (or deploy to a static host) and point the domain's DNS records to that host. DNS/hosting cannot be changed from the local site files alone.
+Live site: https://carolasalvi.org/
+
+Static website hosted with GitHub Pages.
+The custom domain is configured through the repository CNAME file.
+Do not remove or overwrite CNAME when updating the website.
+
+SEO files:
+- robots.txt
+- sitemap.xml
+
+Researcher profiles:
+- ORCID: https://orcid.org/0000-0001-9312-7649
+- Google Scholar: https://scholar.google.com/citations?user=IAWS8yEAAAAJ
