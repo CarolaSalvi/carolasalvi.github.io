@@ -2,6 +2,27 @@
 
 <html lang="en">
 <head>
+  <!-- Google Analytics 4 -->
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('consent', 'default', {
+
+    analytics_storage: 'denied',
+
+    ad_storage: 'denied',
+
+    ad_user_data: 'denied',
+
+    ad_personalization: 'denied'
+
+  });
+
+</script>
 <link href="https://carolasalvi.org/" rel="canonical"/>
 <meta content="https://carolasalvi.org/" property="og:url"/>
 <meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
@@ -138,4 +159,168 @@
 <div class="exhibitions"><h3>EXHIBITIONS</h3><div><b>2022</b><p><strong>Witte Museum</strong> — San Antonio, TX, USA<br/><span>Art Exhibition and Fundraiser to Support Domestic Violence Survivors · May 20</span></p></div><div><b>2022</b><p><strong>UT Austin Law School</strong> — Austin, TX, USA<br/><span>Domestic Violence Awareness Month · October 25</span></p></div><div><b>2023</b><p><strong>UCSF Mission Bay Campus</strong> — San Francisco, CA, USA<br/><span><em>When Art Meets Science</em> — Art Exhibition, Talk and Fundraiser to Support Domestic Violence Survivors · March</span></p></div><div><b>2023</b><p><strong>Rome Art Week</strong> — Rome, Italy<br/><span>Domestic Violence Awareness Month · November</span></p></div><div><b>2024</b><p><strong>SENSARTE</strong> — Genoa, Italy<br/><span>Domestic Violence Awareness Month · November</span></p></div></div></section>
 <section class="section contact" id="contact"><div class="contact-phone"><img alt="Vintage telephone handset" src="assets/phone-green.png"/></div><div><div class="section-label">08 / CONTACT</div><h2>Research.<br/>Collaborate.<br/>Connect.</h2><a href="mailto:carola.salvi@gmail.com">carola.salvi@gmail.com ↗</a><br/><a href="mailto:carola.salvi@unicatt.it">carola.salvi@unicatt.it ↗</a></div></section>
 </main><footer><span>© Carola Salvi</span><span>CLICK OUTSIDE THE BOX</span><span>carolasalvi.org</span></footer>
-</body></html>
+<!-- Analytics consent banner -->
+
+<div id="analytics-consent" role="dialog" aria-label="Analytics preferences"
+
+     style="display:none;position:fixed;bottom:20px;left:20px;right:20px;
+
+     max-width:440px;background:#fff;color:#111;padding:24px;
+
+     border:1px solid #ddd;box-shadow:0 5px 25px rgba(0,0,0,.12);
+
+     z-index:9999;font-family:'DM Sans',sans-serif;">
+
+  <p style="font-size:15px;line-height:1.6;margin:0 0 18px;">
+
+    This website uses optional analytics cookies to understand
+
+    visitor traffic and improve the site. You can accept or reject them.
+
+    <a href="/privacy.html">Privacy information</a>.
+
+  </p>
+
+  <button id="accept-analytics" type="button"
+
+          style="background:#e8451d;color:white;border:0;
+
+          padding:12px 18px;cursor:pointer;margin-right:8px;">
+
+    Accept
+
+  </button>
+
+  <button id="reject-analytics" type="button"
+
+          style="background:white;color:#111;border:1px solid #111;
+
+          padding:12px 18px;cursor:pointer;">
+
+    Reject
+
+  </button>
+
+</div>
+
+<button id="analytics-settings" type="button"
+
+        style="position:fixed;bottom:10px;right:10px;z-index:9998;
+
+        background:#fff;border:1px solid #ccc;padding:7px 10px;
+
+        font:12px 'DM Sans',sans-serif;cursor:pointer;">
+
+  Cookie settings
+
+</button>
+
+<script>
+
+(function () {
+
+  const banner = document.getElementById('analytics-consent');
+
+  const savedChoice = localStorage.getItem('carola_analytics_consent');
+
+  const measurementId = 'G-RVZL6YHRDQ';
+
+  let analyticsLoaded = false;
+
+  function enableAnalytics() {
+
+    if (typeof gtag !== 'function') return;
+
+    gtag('consent', 'update', {
+
+      analytics_storage: 'granted'
+
+    });
+
+    if (analyticsLoaded) return;
+
+    analyticsLoaded = true;
+
+    const script = document.createElement('script');
+
+    script.async = true;
+
+    script.src =
+
+      'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+
+    document.head.appendChild(script);
+
+    gtag('js', new Date());
+
+    gtag('config', measurementId);
+
+  }
+
+  function saveChoice(accepted) {
+
+    localStorage.setItem(
+
+      'carola_analytics_consent',
+
+      accepted ? 'accepted' : 'rejected'
+
+    );
+
+    banner.style.display = 'none';
+
+    if (accepted) {
+
+      enableAnalytics();
+
+    } else if (typeof gtag === 'function') {
+
+      gtag('consent', 'update', {
+
+        analytics_storage: 'denied'
+
+      });
+
+    }
+
+  }
+
+  document.getElementById('accept-analytics')
+
+    .addEventListener('click', function () {
+
+      saveChoice(true);
+
+    });
+
+  document.getElementById('reject-analytics')
+
+    .addEventListener('click', function () {
+
+      saveChoice(false);
+
+    });
+
+  document.getElementById('analytics-settings')
+
+    .addEventListener('click', function () {
+
+      banner.style.display = 'block';
+
+    });
+
+  if (savedChoice === 'accepted') {
+
+    enableAnalytics();
+
+  } else if (!savedChoice) {
+
+    banner.style.display = 'block';
+
+  }
+
+})();
+
+</script>
+  </body>
+</html>
